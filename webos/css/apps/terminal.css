@@ -1,0 +1,4 @@
+/* Terminal app */
+.term-window{background:#0b1220;color:#cfe8ff;padding:8px;font-family:monospace;min-height:200px}
+.term-output{white-space:pre-wrap}
+.term-input{width:100%;border:none;background:transparent;color:#cfe8ff;outline:none}

@@ -1,0 +1,19 @@
+/* Window styles */
+.window{position:absolute;width:520px;height:360px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:10px;box-shadow:0 20px 40px rgba(2,6,23,0.6);overflow:hidden;display:flex;flex-direction:column}
+.window .titlebar{height:36px;display:flex;align-items:center;justify-content:space-between;padding:0 10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));cursor:grab}
+.window .title{font-weight:600;color:var(--text)}
+.window .controls{display:flex;gap:8px}
+.window .controls button{width:28px;height:28px;border-radius:6px;border:none;background:transparent;color:var(--text)}
+.window .content{flex:1;padding:10px;overflow:auto}
+.resize-handle{position:absolute;width:16px;height:16px;right:6px;bottom:6px;cursor:se-resize}
+.minimized{display:none}
+
+/* Smooth transitions and interactive feel */
+.window{
+	transition:box-shadow .18s ease, transform .12s ease, left .12s ease, top .12s ease, width .12s ease, height .12s ease, opacity .12s ease;
+}
+.window:active{
+	box-shadow:0 28px 50px rgba(2,6,23,0.7);
+}
+.titlebar.grabbing{cursor:grabbing}
+.maxed{border-radius:0}

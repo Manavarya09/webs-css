@@ -1,0 +1,28 @@
+/* Base variables and reset */
+:root{
+  --bg:#0f1724;
+  --panel: rgba(255,255,255,0.06);
+  --accent: #5eead4;
+  --text: #e6eef8;
+  --muted: #9aa7b2;
+  --glass: rgba(255,255,255,0.06);
+}
+
+/* Light theme variables */
+:root[data-theme='light']{
+  --bg: #f3f6fb;
+  --panel: rgba(6,11,22,0.04);
+  --accent: #0066ff;
+  --text: #0b1220;
+  --muted: #445569;
+  --glass: rgba(255,255,255,0.6);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+.hidden{display:none}
+.overlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--text);z-index:9999}
+.msg{color:var(--muted);font-size:0.9rem;margin-top:8px}
+/* Notification toasts */
+.toast-container{position:fixed;right:18px;bottom:18px;display:flex;flex-direction:column;gap:8px;z-index:99999}
+.toast{background:var(--panel);color:var(--text);padding:10px 12px;border-radius:8px;box-shadow:0 8px 20px rgba(2,6,23,0.5)}
+button{cursor:pointer}

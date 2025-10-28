@@ -1,0 +1,5 @@
+{
+  "root": [
+    {"name":"welcome.txt","type":"text","content":"Welcome to WebOS!"}
+  ]
+}

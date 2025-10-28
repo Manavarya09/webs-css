@@ -1,0 +1,8 @@
+.explorer-root{display:flex;flex-direction:column;height:100%}.explorer-toolbar{display:flex;gap:8px;padding:6px}.explorer-list{flex:1;overflow:auto;padding:8px;display:flex;flex-direction:column;gap:6px}.explorer-item{display:flex;align-items:center;justify-content:space-between;padding:8px;border-radius:6px;background:rgba(255,255,255,0.02)}.explorer-item .meta{display:flex;flex-direction:column}.explorer-item .name{font-weight:600}.explorer-del{background:transparent;border:1px solid rgba(255,255,255,0.03);padding:6px;border-radius:6px}
+.explorer-breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.9rem;color:var(--muted)}
+.crumb{cursor:pointer;padding:4px 6px;border-radius:4px}
+.crumb:hover{background:rgba(255,255,255,0.02)}
+.explorer-context{position:absolute;background:#0b1220;color:#cfe8ff;padding:8px;border-radius:8px;box-shadow:0 10px 30px rgba(2,6,23,0.7);min-width:140px;z-index:999}
+.explorer-context.hidden{display:none}
+.explorer-context div{padding:6px;border-radius:6px}
+.explorer-context div:hover{background:rgba(255,255,255,0.02);cursor:pointer}

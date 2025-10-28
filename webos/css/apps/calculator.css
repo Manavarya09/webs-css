@@ -1,0 +1,4 @@
+/* Calculator app simple styles */
+.calc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.calc-screen{height:56px;background:rgba(0,0,0,0.2);border-radius:8px;padding:8px;color:var(--text);display:flex;align-items:center;justify-content:flex-end;font-size:1.6rem}
+.calc-btn{padding:12px;border-radius:8px;background:rgba(255,255,255,0.03);text-align:center}

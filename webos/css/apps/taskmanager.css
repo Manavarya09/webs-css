@@ -1,0 +1,1 @@
+.taskmgr-root{padding:8px}.taskmgr-list{display:flex;flex-direction:column;gap:8px}.task-row{display:flex;align-items:center;justify-content:space-between;padding:8px;background:rgba(255,255,255,0.02);border-radius:6px}.task-row button{margin-left:8px} .tmeta{display:flex;flex-direction:column}.tname{font-weight:700}.tid{font-size:0.8rem;color:var(--muted)}
